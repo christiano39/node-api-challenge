@@ -57,7 +57,7 @@ router.delete('/:id', validateProjectId, (req, res) => {
         })
 })
 
-//middleware
+// validation middleware
 
 function validateProjectId(req, res, next){
     Projects.get(req.params.id)

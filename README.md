@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 -   [ ] Mention two parts of Express that you learned about this week.
 
+We learned about how to use middleware in our Express apps, and also how to create seprate routes for different parts of the API.
+
 -   [ ] Describe Middleware?
+
+Middleware is a function that will run during a certain part of your flow through the API. You can have global middleware that runs on every request, or you can have more specific middleware that only runs on certain routes or endpoints.
 
 -   [ ] Describe a Resource?
 
+A resource is anything that you want to perform CRUD operations on. Resources are the main data that drives an API.
+
 -   [ ] What can the API return to help clients know if a request was successful?
 
+The API can return a status code for successful or unsuccessful request handling in the response.
+
 -   [ ] How can we partition our application into sub-applications?
+
+By using an express router in order to break up our API into seprate files with different endpoints.
 
 ## Minimum Viable Product
 
